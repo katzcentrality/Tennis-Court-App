@@ -9,9 +9,11 @@ import CourtdetailPage from './routes/CourtdetailPage';
 import AddReview from './components/AddReview';
 import Dashboard from './components/Auth/Dashboard';
 import CourtFinder from './apis/CourtFinder';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
-
+toast.configure();
 
 
 function App() {

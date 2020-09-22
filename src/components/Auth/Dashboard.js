@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Typography, Button} from '@material-ui/core';
 import CourtFinder from '../../apis/CourtFinder';
-import axios from 'axios';
+import {toast} from 'react-toastify';
 
 const Dashboard = ({setAuth}) => {
 
@@ -22,6 +22,7 @@ event.preventDefault();
 // localStorage.removeItem('token')
 localStorage.clear();
 setAuth(false);
+toast.success('Successfully logged out');
 }
 
 useEffect(() => {
