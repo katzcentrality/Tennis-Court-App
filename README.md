@@ -9,4 +9,8 @@ This app helps people discover and rate tennis courts. The app is built with a R
 
 ![Using Docker in our EC2 instance](https://i.ibb.co/njRpfjZ/AWS.jpg)
 
-We can execute the same commands we would execute in our psql shell on our Docker container. 
+We can execute the same commands we would execute in our local psql shell on our Docker container. 
+
+## How Do We Manage State?
+
+
