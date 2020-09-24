@@ -7,3 +7,6 @@ This app helps people discover and rate tennis courts. The app is built with a R
 ![Our PostgreSQL tables](https://i.ibb.co/QNYVNkt/Postgres-DB.jpg)
 
 
+![Using Docker in our EC2 instance](https://i.ibb.co/njRpfjZ/AWS.jpg)
+
+We can execute the same commands we would execute in our psql shell on our Docker container. 
